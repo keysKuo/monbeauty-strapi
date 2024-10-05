@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "khuyen_mais",
+  "info": {
+    "singularName": "khuyen-mai",
+    "pluralName": "khuyen-mais",
+    "displayName": "Khuyến mãi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string"
+    },
+    "expiry": {
+      "type": "date"
+    },
+    "used": {
+      "type": "boolean",
+      "default": false
+    },
+    "discount": {
+      "type": "integer"
+    }
+  }
+}
